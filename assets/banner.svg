@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f1b"/>
+      <stop offset="100%" stop-color="#2a4b7c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff8a00"/>
+      <stop offset="100%" stop-color="#ff3d6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="36" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="264" rx="28" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="1020" cy="110" r="66" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="900" cy="228" r="34" fill="rgba(255,255,255,0.12)"/>
+  <text x="72" y="140" fill="#ffffff" font-family="Inter, Helvetica, Arial, sans-serif" font-size="64" font-weight="700">MovieBox Premium</text>
+  <text x="72" y="210" fill="#e0e8ff" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28">Premium Android APK with a sleek install-first experience.</text>
+  <text x="72" y="278" fill="#ffcc74" font-family="Inter, Helvetica, Arial, sans-serif" font-size="20">Release: v1.0 · Direct APK package · No source code included</text>
+  <rect x="72" y="310" width="240" height="24" rx="12" fill="url(#accent)"/>
+</svg>
