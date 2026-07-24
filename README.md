@@ -8,58 +8,111 @@
   <img src="assets/banner.svg" alt="MovieBox Premium banner" width="800" />
 </p>
 
-> MovieBox Premium is a polished Android APK release with premium streaming and download features.
+> A premium release repository for the MovieBox Premium v2 Android APK package.
 
 ---
 
-## ✨ Overview
+## ✨ Repository Description
 
-MovieBox Premium offers a premium Android experience with fast downloads, curated content sections, and a polished user interface. This repository holds the `MovieBox Premium v2.apk` release asset only.
+This repository is dedicated to hosting the **MovieBox Premium v2** APK release in a clean, public distribution format. It is designed for users who want quick access to the APK file without source code or development artifacts. The repository also includes polished visual assets and a comprehensive README to make the release feel premium and professional.
 
-## 📦 Included Asset
+## 📌 What’s Included
 
-- `MovieBox Premium v2.apk` — premium MovieBox Android installation package.
+- `MovieBox Premium v2.apk` — Android APK installer file
+- `README.md` — repository release notes and usage guide
+- `assets/app-icon.svg` — app icon preview for branding
+- `assets/banner.svg` — hero banner for the README
+- `assets/screenshot.svg` — UI preview for premium MovieBox features
+- `assets/Screenshot_20260507-000411.png` — additional MovieBox screenshot
+- `assets/Screenshot_20260507-000620.png` — additional MovieBox screenshot
+- `assets/Picsart_26-05-06_09-13-21-341.png` — premium UI screenshot
 
-## 🎨 Visual Preview
+## 📦 APK Details
+
+- File name: `MovieBox Premium v2.apk`
+- Package type: Android APK
+- Release version: `v2`
+- Size: ~62 MB
+- File format: `application/vnd.android.package-archive`
+
+## 🔍 Why This Repo Exists
+
+- To provide a single-source release package for the MovieBox Premium application
+- To separate distribution artifacts from source code repositories
+- To maintain a clean release README with installation instructions and feature highlights
+- To support easy access for users and reviewers who want the APK only
+
+## 🎨 App Highlights
+
+- Beautiful dark mode interface and premium visuals
+- Quick download manager for episodes and media
+- Family mode and study mode controls for user safety
+- High-quality streaming support with offline download options
+- Organized navigation for Home, NovelHub, Downloads, and Profile
+
+## � Screenshot Gallery
 
 <p align="center">
-  <img src="assets/screenshot.svg" alt="MovieBox Premium preview" width="720" />
+  <img src="assets/Screenshot_20260507-000411.png" alt="MovieBox Premium screenshot 1" width="420" style="margin: 8px; border-radius: 16px;" />
+  <img src="assets/Screenshot_20260507-000620.png" alt="MovieBox Premium screenshot 2" width="420" style="margin: 8px; border-radius: 16px;" />
 </p>
 
-## 🔥 Main Features
+<p align="center">
+  <img src="assets/Picsart_26-05-06_09-13-21-341.png" alt="MovieBox Premium screenshot 3" width="840" style="margin: 8px; border-radius: 16px;" />
+</p>
 
-- Premium UI with a clean dark mode design
-- Download manager with episode batch download support
-- Family mode and study mode controls
-- Supports high-quality streaming and offline viewing
-- Direct APK release package for quick install
+## �📖 Release Notes
 
-## 🔒 Important Notes
+**MovieBox Premium v2** includes:
 
-- This repository includes only the APK file and does not contain source code.
-- Install only if you trust the source and understand the security implications of third-party APKs.
-- Android may require `Install unknown apps` permission for side-loaded packages.
+- Updated premium UI styling and navigation
+- Download manager improvements with batch downloads
+- Enhanced streaming playback experience
+- New family-friendly mode controls
+- Stability and performance improvements
 
 ## 🚀 Installation Guide
 
-1. Copy `MovieBox Premium v2.apk` to your Android device.
-2. Open the APK using a file browser or APK installer.
-3. Allow installation from unknown sources if prompted.
-4. Complete the install flow and launch the app.
+1. Download `MovieBox Premium v2.apk` from the repository or release page.
+2. Transfer the APK to your Android device.
+3. Open the file with a file browser or package installer.
+4. If prompted, enable installation from unknown sources for your installer app.
+5. Follow the install prompts and launch MovieBox Premium.
 
-## 🛠 Repository Status
+## 📱 Supported Devices
 
-- This folder is tracked in Git and syncs with `origin/master`.
-- To initialize a similar release repository:
+- Android smartphones and tablets
+- Android 8.0 Oreo or higher recommended
+- Works on emulator environments supporting APK installation
 
-  ```bash
-  git init
-  git add README.md "MovieBox Premium v2.apk"
-  git commit -m "Add MovieBox Premium APK release"
-  ```
+## 🛡 Security & Usage Notes
 
-- Add a `.gitignore` for temporary or local files as needed.
+- This repository does not contain source code, only the installation package.
+- Only install this APK if you trust the source and understand side-loading risks.
+- Third-party APKs may require explicit permissions and can trigger system security warnings.
+
+## 🗂 Repository Structure
+
+```text
+moviebox/
+├── README.md
+├── MovieBox Premium v2.apk
+└── assets/
+    ├── app-icon.svg
+    ├── banner.svg
+    └── screenshot.svg
+```
+
+## 📧 Contact & Support
+
+If you need help or have questions about this release, open an issue on the repository or contact the maintainer through GitHub.
+
+## 📝 Notes for Maintainers
+
+- Keep the APK file and release notes synchronized with the published GitHub release.
+- Update the `Release Notes` section for each new APK version.
+- Add `.gitignore` if additional temporary or build files are added in the future.
 
 ## 📌 Disclaimer
 
-This repository is provided as-is. The author is not responsible for issues from installing or using the APK.
+This repository is provided as-is. The author is not responsible for any issues arising from installing or using the APK.
